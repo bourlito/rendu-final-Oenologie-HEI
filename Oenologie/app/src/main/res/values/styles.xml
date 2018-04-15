@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="NavDrawerStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/burgundy</item>
+        <item name="colorPrimaryDark">@color/burgundy</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="listPreferredItemHeightSmall">60sp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="NoTitleDialog" parent="Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+</resources>

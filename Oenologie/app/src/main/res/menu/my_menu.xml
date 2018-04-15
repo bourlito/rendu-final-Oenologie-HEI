@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accueil"
+        android:checkable="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/accueil" />
+
+    <item
+        android:id="@+id/seance"
+        android:checkable="true"
+        android:icon="@drawable/ic_seance"
+        android:title="@string/seance" />
+
+    <item
+        android:id="@+id/carte"
+        android:checkable="true"
+        android:icon="@drawable/ic_map"
+        android:title="@string/carte"
+        />
+
+    <item
+        android:id="@+id/quizz"
+        android:checkable="true"
+        android:icon="@drawable/ic_quizz"
+        android:title="@string/quizz" />
+
+    <item
+        android:id="@+id/contact"
+        android:checkable="true"
+        android:icon="@drawable/ic_contacts"
+        android:title="@string/contact" />
+</menu>

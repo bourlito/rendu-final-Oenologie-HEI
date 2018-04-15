@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Oenologie.oenologie.Fragments.Fragments_Seances.Fragment_Seance_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titre21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quand"
+            android:padding="15px"
+            android:layout_marginLeft="10px"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvfrags2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/titre22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thème"
+            android:padding="15px"
+            android:layout_marginLeft="10px"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvfrags22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titre23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infos"
+            android:padding="15px"
+            android:layout_marginLeft="20px"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvfrags23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

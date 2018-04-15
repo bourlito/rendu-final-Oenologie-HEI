@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>HEI Oenologie Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<div class="header">
+    <h2>Home Page</h2>
+</div>
+<div class="content">
+    <p>Welcome</p>
+    <form method="post">
+        <div class="header"><h1> Mise à jour des séances</h1></div>
+        <div class="input-group" >
+            Séance: <select name="seance">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        </div></br>
+        <div class="input-group"> <label>  Nom de la séance :</label> <input type="text" name="libelle" required> </br> </div>
+        <div class="input-group" > <label> Date : </label><input type="date" name="date" required></br> </div>
+        <div class="input-group"> <label> Infos sur la séance :</label> <textarea name="infos" rows="10" cols="88"></textarea></div>
+        <div class="input-group">
+            <input type="submit"value="Mettre à jour les séances">
+        </div>
+    </form>
+    <form class="form1" method="post">
+        <div class="header"><h1> Mise à jour des questions</h1></div>
+        <div class="input-group" >
+            Séance: <select name="seance">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        </div></br>
+        <div class="input-group"> Libelle de la question: <input type="text" name="libelle_question" required> </br> </div>
+        <div class="input-group"> Réponse: <select name="reponse">
+            <option value="1">VRAI</option>
+            <option value="0">FAUX</option>
+        </select> </div>
+        <div class="input-group"> <input type="submit" value="Mettre à jour les questions"></div>
+    </form>
+
+    <p> <a href="/login" style="color: red;">Logout</a> </p>
+</div>
+
+</body>
+</html>

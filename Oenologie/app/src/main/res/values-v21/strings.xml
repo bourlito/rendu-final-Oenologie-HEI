@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accueil">Accueil</string>
+    <string name="seance">Séances</string>
+    <string name="carte">Carte</string>
+    <string name="quizz">Quizz</string>
+    <string name="oenologie_hei">Oenologie HEI</string>
+</resources>

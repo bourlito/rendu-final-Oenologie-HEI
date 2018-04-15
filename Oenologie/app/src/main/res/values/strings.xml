@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Oenologie Hei</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="accueil">Accueil</string>
+    <string name="seance">Séances</string>
+    <string name="carte">Carte</string>
+    <string name="quizz">Quizz</string>
+    <string name="oenologie_hei">Oenologie HEI</string>
+    <string name="frag_seance_3">frag seance 3</string>
+    <string name="frag_seance_2">frag seance 2</string>
+    <string name="frag_seance_1">frag seance 1</string>
+    <string name="contact"><![CDATA[Contact & Adresses]]></string>
+    <string name="carte_interactive_des_vignobles_de_france">carte interactive des vignobles de france</string>
+    <string name="loire">loire</string>
+    <string name="champagne">champagne</string>
+    <string name="bordeaux">bordeaux</string>
+    <string name="lorraine">lorraine</string>
+    <string name="alsace">alsace</string>
+    <string name="sud_ouest">Sud Ouest</string>
+    <string name="languedoc">languedoc</string>
+    <string name="provence_corse">provence corse</string>
+    <string name="rhone">rhone</string>
+    <string name="bourgogne">bourgogne</string>
+    <string name="savoie">savoie</string>
+    <string name="signin">demarrer</string>
+    <string name="cancel">annuler</string>
+    <string name="tutoCarte">Cliquez sur la carte et découvrez les régions viticoles de France !</string>
+</resources>
